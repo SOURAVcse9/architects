@@ -13,6 +13,7 @@ font-style: normal;
 font-weight: 600;
 line-height: normal;
 border:none;
+cursor: pointer;
 }
 
 
@@ -42,7 +43,6 @@ margin-right:30px ;
 text-align: center;
 font-family: Work Sans;
 font-size: 18px;
-font-style: normal;
 font-weight: 500;
 line-height: 26px;
 }
@@ -56,7 +56,6 @@ text-align: center;
 font-family: Work Sans;
 font-size: 45px;
 font-style: normal;
-font-weight: 700;
 line-height: normal;
 }
 /* bannar styles */
@@ -69,15 +68,8 @@ text-align:center ;
 margin: 0 auto !important;
 }
 .bannar-title{
-    color: var(--Dark-01, #131313);
-text-align: center;
-font-family: Work Sans;
+    color:#131313
 font-size: 64px;
-font-style: normal;
-font-weight: 700;
-line-height: normal;
-width: 862px;
-height:150px;
 }
 .title-discreption{
     color: var(--Dark-03, #727272);
@@ -92,4 +84,29 @@ margin-top: 0px;
 }
 .bannar-image{
     margin-top: 50px;
+    width: 100%;
+}
+/* responsive media query */
+@media screen and (max-width:576px) {
+    header{
+        padding:20px;
+    }
+    nav{
+        flex-direction: column;
+        
+    }
+   
+    .bannar-title{
+margin-left: 20px;
+    }
+
+}
+/* tablet or medium device */
+@media screen and (min-width: 576px) and (max-width:960px){
+    nav{
+        flex-direction: column;
+    }
+    header{
+        padding: 30px;
+    }
 }
