@@ -1,0 +1,95 @@
+/* share style */
+.btn-primary{
+    width: 180px;
+height: 64px;
+flex-shrink: 0;
+border-radius: 8px;
+background: #FF900E;
+color: #FFF;
+text-align: center;
+font-family: Work Sans;
+font-size: 20px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+border:none;
+}
+
+
+
+/* work sans font */
+ 
+ 
+ @import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@300;400;500;600;700&display=swap');
+ *{
+    font-family: 'Work Sans', sans-serif;
+ }
+/* header background */
+header{
+    background: rgba(255, 144, 14, 0.10);
+    padding: 50px 240px;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+}
+nav > ul{
+    display: flex;
+}
+nav li{
+    list-style: none;
+margin-right:30px ;
+text-align: center;
+font-family: Work Sans;
+font-size: 18px;
+font-style: normal;
+font-weight: 500;
+line-height: 26px;
+}
+nav li a{
+    text-decoration: none;
+    color:#424242;
+}
+.nav-title{
+    color:#131313;
+text-align: center;
+font-family: Work Sans;
+font-size: 45px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+/* bannar styles */
+.bannar{
+    text-align: center;
+}
+.bannar-content{
+max-width:800px;
+text-align:center ;
+margin: 0 auto !important;
+}
+.bannar-title{
+    color: var(--Dark-01, #131313);
+text-align: center;
+font-family: Work Sans;
+font-size: 64px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+width: 862px;
+height:150px;
+}
+.title-discreption{
+    color: var(--Dark-03, #727272);
+text-align: center;
+font-family: Work Sans;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 26px; /* 162.5% */
+height:52px;
+margin-top: 0px;
+}
+.bannar-image{
+    margin-top: 50px;
+}
